@@ -14,7 +14,7 @@ fun encode(num: Int): String {
         4 to "IV",
         1 to "I"
     )
-    var numLocal = num;
+    var numLocal = num
     var romanNumber = ""
 
     numbers.forEach { (int, roman) ->
@@ -24,7 +24,7 @@ fun encode(num: Int): String {
         }
     }
 
-    return romanNumber;
+    return romanNumber
 }
 
 fun main() {

@@ -20,11 +20,11 @@ internal class MainKtTest {
     }
     @Test
     fun testConvert8() {
-        assertEquals("VIII", encode(7))
+        assertEquals("VIII", encode(8))
     }
     @Test
     fun testConvert9() {
-        assertEquals("IX", encode(7))
+        assertEquals("IX", encode(9))
     }
     @Test
     fun testConvert58() {
